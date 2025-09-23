@@ -9,13 +9,26 @@
     --marron: #653b2a;
     --azul-escura: #65a4b5;
     --verde: #acccbc;
+    --branco: #ffffff;
 }
 
 
 .nav-top{
-    background-color: var(--laranja) !important;
+    background-color: var(--laranja);
 }
 
+.nav-item{
+    margin: 0.5em !important;
+    text-align: center !important;
+}
+  
 .nav-link{
-    color: var(--marron) !important;
+    color: var(--branco) !important;
+    background-color: var(--marron) !important;
+    border-radius: 0.5em !important;
+}
+
+.btn-buscar{
+    background-color: var(--marron) !important;
+    color: var(--branco) !important;
 }
