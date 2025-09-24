@@ -32,3 +32,45 @@
     background-color: var(--marron) !important;
     color: var(--branco) !important;
 }
+
+.divisao{
+    background-color: var(--laranja) !important;
+    color: var(--branco) !important;
+    padding: 2em !important;
+    text-align: center !important;
+}
+
+.car-img{
+    max-height: 50em !important;
+}
+
+.carousel-caption{
+    width: auto !important;
+    background-color: var(--marron) !important;
+    color: var(--verde) !important;
+}
+
+
+.sec-pacotes{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin: 1% !important;
+}
+
+.card{
+    padding: 1% !important;
+    margin:  0% 1% 1% !important;
+}
+
+.card-img{
+    width: auto !important;
+}
+
+
+
+.btn-comprar{
+    background-color: var(--azul-escura) !important;
+    color: var(--branco) !important;
+    align-items: flex-end !important;
+}
