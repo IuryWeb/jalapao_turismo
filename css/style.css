@@ -38,6 +38,7 @@
     color: var(--branco) !important;
     padding: 2em !important;
     text-align: center !important;
+    margin-bottom: 1% !important;
 }
 
 .car-img{
@@ -48,6 +49,7 @@
     width: auto !important;
     background-color: var(--marron) !important;
     color: var(--verde) !important;
+    border-radius: 1em !important;
 }
 
 
@@ -67,10 +69,42 @@
     width: auto !important;
 }
 
-
-
 .btn-comprar{
     background-color: var(--azul-escura) !important;
     color: var(--branco) !important;
-    align-items: flex-end !important;
+}
+
+.card-body{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    height: 100%;
+    text-align: justify !important;
+}
+
+.sec-contato{
+    margin-bottom: 5% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+.btn-contato{
+    background-color: var(--marron) !important;
+    color: var(--branco) !important;
+}
+
+.formulario{
+    background-color: var(--laranja) !important;
+    padding: 1em !important;
+    border-radius: 0.5em !important;
+    color: var(--branco) !important;
+    margin: 2em !important;
+}
+
+footer{
+    background-color: var(--laranja) !important;
+    color: var(--branco) !important;
+    text-align: center !important;
+    padding: 0.5em !important;
 }
