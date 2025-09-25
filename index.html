@@ -118,7 +118,8 @@
                 <img class="card-img-top card-img" src="img/dunas.webp" alt="Card image">
                 <div class="card-body">
                     <h4 class="card-title">Dunas do Jalapão</h4>
-                    <p class="card-text">Uma imensa área de areias douradas. O cenário é único: dunas alaranjadas que mudam de
+                    <p class="card-text">Uma imensa área de areias douradas. O cenário é único: dunas alaranjadas que
+                        mudam de
                         forma com o vento, cercadas de serras e cerrado. O pôr do sol visto dali é um dos momentos mais
                         marcantes da região.</p>
                     <a href="#" class="btn btn-comprar">Comprar Pacote</a>
@@ -169,28 +170,48 @@
         <section class="row sec-contato">
             <!-- formulario -->
             <div class="col-6 formulario">
-                <form action="">
-                    <div class="mb-3">
-                        <label for="nome" class="form-label">Nome:</label>
-                        <input type="txt" class="form-control" id="nome" placeholder="informe seu nome" name="nome">
-                    </div>
-                    <div class="mb-3 mt-3">
-                        <label for="email" class="form-label">Email:</label>
-                        <input type="email" class="form-control" id="email" placeholder="informe seu email.."
-                            name="email">
-                    </div>
-                    <div class="mb-3 mt-3">
-                        <label for="comment">Mensagens:</label>
-                        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
-                    </div>
+                <div class="contato">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome:</label>
+                            <input type="txt" class="form-control" id="nome" placeholder="informe seu nome" name="nome">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="informe seu email.."
+                                name="email">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="comment">Mensagens:</label>
+                            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                        </div>
 
-                    <button type="submit" class="btn btn-contato">Enviar</button>
-                </form>
+                        <button type="submit" class="btn btn-contato">Enviar</button>
+                    </form>
+                </div>
             </div>
+
             <!-- redes sociais e maps -->
-            <div class="col-6">
+            <div class="col-6 maps">
+                <div class="contato">
+                    <div class="col-12 midia">
 
+                        <a href=""><img class="img-icon" src="img/WhatsApp.svg.webp" alt="">Whatsapp</a>
+                        <a href=""><img class="img-icon" src="img/instagram.png" alt="">Instragam</a>
+
+                    </div>
+
+
+                    <div class="col-12 endereco">
+                        <p>Nosso Endereço:</p>
+                        <iframe class="endereco-maps"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.0404635792083!2d-48.335925434475925!3d-10.17736648075212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9324cb662845b86b%3A0x8e5983c9c417a2b!2sSenac%20Idiomas!5e0!3m2!1sen!2sbr!4v1758818966370!5m2!1sen!2sbr"
+                            width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
             </div>
+
         </section>
 
     </main>

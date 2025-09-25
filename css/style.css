@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-:root{
-    --laranja:#f47c3c;
+:root {
+    --laranja: #f47c3c;
     --ciano: #84d4f4;
     --marron: #653b2a;
     --azul-escura: #65a4b5;
@@ -13,27 +13,27 @@
 }
 
 
-.nav-top{
+.nav-top {
     background-color: var(--laranja);
 }
 
-.nav-item{
+.nav-item {
     margin: 0.5em !important;
     text-align: center !important;
 }
-  
-.nav-link{
+
+.nav-link {
     color: var(--branco) !important;
     background-color: var(--marron) !important;
     border-radius: 0.5em !important;
 }
 
-.btn-buscar{
+.btn-buscar {
     background-color: var(--marron) !important;
     color: var(--branco) !important;
 }
 
-.divisao{
+.divisao {
     background-color: var(--laranja) !important;
     color: var(--branco) !important;
     padding: 2em !important;
@@ -41,40 +41,40 @@
     margin-bottom: 1% !important;
 }
 
-.car-img{
+.car-img {
     max-height: 50em !important;
 }
 
-.carousel-caption{
+.carousel-caption {
     width: auto !important;
     background-color: var(--marron) !important;
     color: var(--verde) !important;
     border-radius: 1em !important;
+    padding: 1% !important;
 }
 
-
-.sec-pacotes{
+.sec-pacotes {
     margin-left: 10% !important;
     margin-right: 10% !important;
     justify-content: center !important;
     margin: 1% !important;
 }
 
-.card{
+.card {
     padding: 1% !important;
-    margin:  0% 1% 1% !important;
+    margin: 0% 1% 1% !important;
 }
 
-.card-img{
+.card-img {
     width: auto !important;
 }
 
-.btn-comprar{
+.btn-comprar {
     background-color: var(--azul-escura) !important;
     color: var(--branco) !important;
 }
 
-.card-body{
+.card-body {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
@@ -83,28 +83,124 @@
     text-align: justify !important;
 }
 
-.sec-contato{
+.sec-contato {
+    margin: 2% 10% !important;
     margin-bottom: 5% !important;
-    margin-left: 10% !important;
-    margin-right: 10% !important;
+    border-radius: 0.5em !important;
+    color: var(--branco) !important;
+    background-color: var(--laranja) !important;
 }
 
-.btn-contato{
+.btn-contato {
     background-color: var(--marron) !important;
     color: var(--branco) !important;
 }
 
-.formulario{
-    background-color: var(--laranja) !important;
+.formulario {
     padding: 1em !important;
-    border-radius: 0.5em !important;
-    color: var(--branco) !important;
-    margin: 2em !important;
+
 }
 
-footer{
+.maps {
+    padding: 1em !important;
+}
+
+.conteudo {
+    align-content: center !important;
+}
+
+.midia {
+    justify-content: center !important;
+}
+
+.midia a {
+    text-decoration: none !important;
+    color: var(--branco) !important;
+    margin: 1% !important;
+    padding-left: 15% !important;
+}
+
+.img-icon {
+    width: 8% !important;
+}
+
+.endereco {
+    text-align: center !important;
+    margin-top: 2% !important;
+
+}
+
+.endereco-maps {
+    max-width: 100% !important;
+    justify-items: center !important;
+}
+
+footer {
     background-color: var(--laranja) !important;
     color: var(--branco) !important;
     text-align: center !important;
     padding: 0.5em !important;
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+
+    .sec-contato {
+        margin: 2% 10% !important;
+        margin-bottom: 25% !important;
+    }
+
+    .btn-contato {
+        background-color: var(--marron) !important;
+        color: var(--branco) !important;
+    }
+
+    .formulario {
+        padding: 1em !important;
+        border-radius: 0.5em !important;
+        color: var(--branco) !important;
+        background-color: var(--laranja) !important;
+    }
+
+    .for-cont {
+        font-size: 80% !important;
+    }
+
+    .maps {
+        padding: 1em !important;
+        border-radius: 0.5em !important;
+        color: var(--branco) !important;
+        background-color: var(--laranja) !important;
+    }
+
+    .conteudo {
+        align-content: center !important;
+    }
+
+    .midia {
+        justify-content: center !important;
+    }
+
+    .midia a {
+        text-decoration: none !important;
+        color: var(--branco) !important;
+        margin: 1% !important;
+        padding-left: 15% !important;
+        font-size: 70% !important;
+    }
+
+    .img-icon {
+        width: 20% !important;
+    }
+
+    .endereco {
+        text-align: center !important;
+        margin-top: 2% !important;
+
+    }
+
+    .endereco-maps {
+        max-width: 100% !important;
+        justify-items: center !important;
+    }
+
 }
